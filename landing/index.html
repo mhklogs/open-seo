@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenSEO — Open Source SEO Platform</title>
+<meta name="description" content="OpenSEO is the open source alternative to Semrush and Ahrefs. Keyword research, rank tracking, backlinks, and site audits — self-hosted, pay-as-you-go.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2310b981'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='16' font-weight='bold' fill='white' text-anchor='middle'>OS</text%3E%3C/svg%3E">
+<style>
+  :root{--bg:#0b1120;--card:#111a30;--text:#e5e9f5;--muted:#94a3b8;--accent:#10b981;--accent2:#22d3ee}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:820px;margin:0 auto;padding:48px 24px 80px}
+  .badge{display:inline-block;background:var(--card);border:1px solid #23314f;border-radius:999px;padding:6px 14px;font-size:13px;color:var(--accent);margin-bottom:24px}
+  h1{font-size:clamp(32px,6vw,52px);font-weight:800;letter-spacing:-.02em;line-height:1.1;margin-bottom:16px}
+  h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  p.lead{font-size:19px;color:var(--muted);max-width:620px;margin-bottom:28px}
+  .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px}
+  .btn{display:inline-block;padding:12px 22px;border-radius:10px;font-weight:600;text-decoration:none;font-size:15px}
+  .btn-primary{background:var(--accent);color:#04110b}
+  .btn-ghost{background:var(--card);color:var(--text);border:1px solid #2a3a5e}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:32px 0}
+  .card{background:var(--card);border:1px solid #1e2a47;border-radius:14px;padding:22px}
+  .card h3{font-size:16px;margin-bottom:8px;color:#fff}
+  .card p{font-size:14px;color:var(--muted)}
+  .code{background:#0e1526;border:1px solid #232f4d;border-radius:10px;padding:18px 20px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px;overflow-x:auto;margin:24px 0}
+  h2{font-size:22px;margin:40px 0 8px;letter-spacing:-.01em}
+  .note{font-size:13px;color:var(--muted)}
+  a{color:var(--accent2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">100% Open Source · Self-hosted · MIT</span>
+  <h1>The open source alternative to <span>Semrush &amp; Ahrefs</span></h1>
+  <p class="lead">Keyword research, rank tracking, backlink analysis, and technical site audits — on a pay-as-you-go data plan instead of a $100+ monthly subscription. Built for you and your AI agent.</p>
+  <div class="ctas">
+    <a class="btn btn-primary" href="https://github.com/mhklogs/open-seo">View the source on GitHub</a>
+    <a class="btn btn-ghost" href="https://openseo.so">Official site &amp; docs</a>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Keyword Research</h3><p>Demand, difficulty, intent, and live SERPs in one place.</p></div>
+    <div class="card"><h3>Rank Tracking</h3><p>Weekly keyword positions at a fraction of SaaS pricing.</p></div>
+    <div class="card"><h3>Backlink Analysis</h3><p>Monitor new and lost links without the Ahrefs bill.</p></div>
+    <div class="card"><h3>Site Audits</h3><p>Surface technical issues that block crawling and ranking.</p></div>
+    <div class="card"><h3>Google Search Console</h3><p>Bring your own data — clicks, impressions, positions.</p></div>
+    <div class="card"><h3>AI Agent MCP</h3><p>Plug it into Claude Code, OpenClaw or Hermes.</p></div>
+  </div>
+  <h2>Self-host in one command</h2>
+  <div class="code">git clone https://github.com/mhklogs/open-seo.git<br>cd open-seo<br>cp .env.example .env<br>docker compose up -d<br># → http://localhost:3001</div>
+  <p class="note">Bring your own DataForSEO API key (new accounts get $1 free credit; min top-up $50, ~$5–15/mo for small sites). GSC integration is optional and free via your own Google OAuth client.</p>
+</div>
+</body>
+</html>
