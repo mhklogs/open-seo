@@ -12,13 +12,21 @@ dist-sourcemaps/
 .tanstack/
 .DS_Store
 .cache
+# Local env files. Order matters: every catch-all must come BEFORE the
+# negations below. git applies last-match-wins, so a blanket rule placed
+# after them silently swallows the *.example templates it is meant to spare.
+# The trailing !*.example keeps new templates committable without having to
+# add a negation per file.
 .env
 .env.
 .env.*
+*.env
+*.env.*
 !.env.example
 !.env.preview.example
 !.env.production.example
 !.env.selfhost.example
+!*.example
 .vercel
 .output
 .nitro
