@@ -84,3 +84,10 @@ Follow along for updates:
 
 - Follow on X: https://x.com/bensenescu
 - Sign up for the mailing list on our website: [openseo.so](https://openseo.so)
+
+## What changed (v3)
+
+- v1→v2: research-based market analysis + SDLC documentation (`documents/01–07`).
+- v2→v3: delivery roadmap with sprint plan and ceremonies (`documents/08-roadmap.md`); this changelog. No source code changed in this pass.
+- Known docs gap now on the backlog: `documents/01-market-analysis.md` places this build in the website-template category against Webflow and Framer, which does not describe an SEO data platform — see PBI-05.
+
